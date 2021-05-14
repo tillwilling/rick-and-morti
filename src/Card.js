@@ -10,7 +10,9 @@ export default function Card({
 }) {
   return (
     <section className="Card">
-      <div className={bookmarked ? 'bookmark active' : 'bookmark'}></div>
+      <div
+        className={bookmarked ? 'Card__bookmark--active' : 'Card__bookmark'}
+      ></div>
       <h2>{name}</h2>
       <div className="imgContainer">
         <img src={image} alt="" />

@@ -1,4 +1,5 @@
 import './App.css'
+import Header from './components/Header/Header'
 import Card from './Card'
 import React, { useState, useEffect } from 'react'
 
@@ -13,6 +14,7 @@ export default function App() {
   }, [url])
   return (
     <div className="App">
+      <Header />
       {characters.map(character => {
         const { name, image, origin, location, id, status } = character
         return (

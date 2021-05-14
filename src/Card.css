@@ -7,7 +7,7 @@
     red 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   box-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px,
     red 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-  background: papayawhip;
+  background: white;
   border-radius: 8px;
   border: 10px solid black;
   margin: 20px;
@@ -24,18 +24,18 @@ h2 {
   text-align: center;
 }
 
-.bookmark {
+.Card__bookmark {
   height: 40px;
   border-left: 20px solid steelblue;
   border-right: 20px solid steelblue;
   border-bottom: 20px solid transparent;
-  background: papayawhip;
+  background: white;
   position: absolute;
   top: -15px;
   right: 20px;
 }
 
-.bookmark.active {
+.Card__bookmark--active {
   border-left: 20px solid brown;
   border-right: 20px solid brown;
 }
