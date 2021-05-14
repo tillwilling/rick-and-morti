@@ -4,4 +4,5 @@
   position: sticky;
   top: 0;
   background: steelblue;
+  z-index: +10;
 }
