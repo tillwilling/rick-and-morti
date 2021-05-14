@@ -1,0 +1,44 @@
+.Card {
+  display: flexbox;
+  max-width: 300px;
+  min-height: 400px;
+  padding: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+    -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+    12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+    -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+    12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  background: white;
+  border-radius: 8px;
+  border: 10px solid black;
+  margin: 20px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* .Card__bookmark {
+  height: 40px;
+  border-left: 20px solid steelblue;
+  border-right: 20px solid steelblue;
+  border-bottom: 20px solid transparent;
+  background: white;
+  position: relative;
+  top: -15px;
+  right: 20px;
+}
+
+.Card__bookmark--active {
+  border-left: 20px solid brown;
+  border-right: 20px solid brown;
+} */

@@ -1,7 +1,7 @@
+import React, { useState, useEffect } from 'react'
 import './App.css'
 import Header from './components/Header/Header'
-import Card from './Card'
-import React, { useState, useEffect } from 'react'
+import Card from './components/Card/Card'
 
 export default function App() {
   const url = 'https://rickandmortyapi.com/api/character'
