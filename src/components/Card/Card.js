@@ -22,7 +22,7 @@ export default function Card({
       <div className="imgContainer">
         <img className="Image" src={image} alt="" />
       </div>
-      <button onClick={() => setShowDetails(!showDetails)}>
+      <button className="Button" onClick={() => setShowDetails(!showDetails)}>
         {showDetails ? 'Hide Details' : 'Show Details'}
       </button>
       {showDetails && (
