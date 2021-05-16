@@ -1,8 +1,7 @@
 .Card {
   display: grid;
-  max-width: 300px;
+  max-width: 250px;
   min-height: 400px;
-  padding: 20px;
   -webkit-box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
     -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
     12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
@@ -12,9 +11,10 @@
     12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
     -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   background: white;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 10px solid black;
   margin: 20px;
+  padding: 20px;
   position: relative;
 }
 
@@ -23,13 +23,19 @@
   justify-content: center;
 }
 
-img {
+.Image {
   max-width: 250px;
+  border-radius: 10px;
+  border: 1px solid #333;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-align: center;
+}
+
+h3 {
+  font-size: 1rem;
 }
 
 .Card__bookmark {
