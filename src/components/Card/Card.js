@@ -10,6 +10,7 @@ export default function Card({
   bookmarked,
 }) {
   const [active, setActive] = useState(false)
+  const [showDetails, setShowDetails] = useState(false)
 
   return (
     <section className="Card">
@@ -21,11 +22,16 @@ export default function Card({
       <div className="imgContainer">
         <img className="Image" src={image} alt="" />
       </div>
-      <div className="Details">
-        <p>Origin: {origin.name}</p>
-        <h3>Last known location: {location.name}</h3>
-        <p>Status: {status}</p>
-      </div>
+      <button onClick={() => setShowDetails(!showDetails)}>
+        {showDetails ? 'Hide Details' : 'Show Details'}
+      </button>
+      {showDetails && (
+        <>
+          <p>Origin: {origin.name}</p>
+          <h3>Last known location: {location.name}</h3>
+          <p>Status: {status}</p>
+        </>
+      )}
     </section>
   )
   function handleClick() {
